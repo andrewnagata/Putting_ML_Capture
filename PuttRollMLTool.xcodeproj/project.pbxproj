@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492AE0E823BBCABD006B0303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AE0E723BBCABD006B0303 /* AppDelegate.m */; };
+		492AE0EB23BBCABD006B0303 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AE0EA23BBCABD006B0303 /* SceneDelegate.m */; };
+		492AE0EE23BBCABD006B0303 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AE0ED23BBCABD006B0303 /* MainViewController.m */; };
+		492AE0F123BBCABD006B0303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AE0EF23BBCABD006B0303 /* Main.storyboard */; };
+		492AE0F323BBCABE006B0303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492AE0F223BBCABE006B0303 /* Assets.xcassets */; };
+		492AE0F623BBCABE006B0303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AE0F423BBCABE006B0303 /* LaunchScreen.storyboard */; };
+		492AE0F923BBCABE006B0303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AE0F823BBCABE006B0303 /* main.m */; };
+		492AE10023BBCBCC006B0303 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492AE0FF23BBCBCC006B0303 /* CoreBluetooth.framework */; };
+		492AE10323BBCBEA006B0303 /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AE10223BBCBEA006B0303 /* BLEManager.m */; };
+		492AE10723BBCCA8006B0303 /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AE10623BBCCA8006B0303 /* CameraController.m */; };
+		492AE10A23BD2EA3006B0303 /* OpenCVManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 492AE10923BD2EA3006B0303 /* OpenCVManager.mm */; };
+		A4448A68F4EFA060D7F3914E /* libPods-PuttRollMLTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9C637B6BA2A1CCFB370DF /* libPods-PuttRollMLTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4239DEABE6BE4EE8E0B2D84B /* Pods-PuttRollMLTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuttRollMLTool.release.xcconfig"; path = "Target Support Files/Pods-PuttRollMLTool/Pods-PuttRollMLTool.release.xcconfig"; sourceTree = "<group>"; };
+		492AE0E323BBCABD006B0303 /* PuttRollMLTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuttRollMLTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492AE0E623BBCABD006B0303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		492AE0E723BBCABD006B0303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		492AE0E923BBCABD006B0303 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		492AE0EA23BBCABD006B0303 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		492AE0EC23BBCABD006B0303 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		492AE0ED23BBCABD006B0303 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		492AE0F023BBCABD006B0303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492AE0F223BBCABE006B0303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492AE0F523BBCABE006B0303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492AE0F723BBCABE006B0303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492AE0F823BBCABE006B0303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		492AE0FF23BBCBCC006B0303 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		492AE10123BBCBEA006B0303 /* BLEManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		492AE10223BBCBEA006B0303 /* BLEManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
+		492AE10523BBCCA8006B0303 /* CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		492AE10623BBCCA8006B0303 /* CameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		492AE10823BD2EA3006B0303 /* OpenCVManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVManager.h; sourceTree = "<group>"; };
+		492AE10923BD2EA3006B0303 /* OpenCVManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVManager.mm; sourceTree = "<group>"; };
+		7C98A4A5B39AB67D71ED16C7 /* Pods-PuttRollMLTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuttRollMLTool.debug.xcconfig"; path = "Target Support Files/Pods-PuttRollMLTool/Pods-PuttRollMLTool.debug.xcconfig"; sourceTree = "<group>"; };
+		B5C9C637B6BA2A1CCFB370DF /* libPods-PuttRollMLTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PuttRollMLTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492AE0E023BBCABD006B0303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492AE10023BBCBCC006B0303 /* CoreBluetooth.framework in Frameworks */,
+				A4448A68F4EFA060D7F3914E /* libPods-PuttRollMLTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492AE0DA23BBCABD006B0303 = {
+			isa = PBXGroup;
+			children = (
+				492AE0E523BBCABD006B0303 /* PuttRollMLTool */,
+				492AE0E423BBCABD006B0303 /* Products */,
+				E137E13BE343EAE0C7C7CF27 /* Pods */,
+				9B9EDA52A92D07C28B564E04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		492AE0E423BBCABD006B0303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492AE0E323BBCABD006B0303 /* PuttRollMLTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492AE0E523BBCABD006B0303 /* PuttRollMLTool */ = {
+			isa = PBXGroup;
+			children = (
+				492AE0E623BBCABD006B0303 /* AppDelegate.h */,
+				492AE0E723BBCABD006B0303 /* AppDelegate.m */,
+				492AE0E923BBCABD006B0303 /* SceneDelegate.h */,
+				492AE0EA23BBCABD006B0303 /* SceneDelegate.m */,
+				492AE0EC23BBCABD006B0303 /* MainViewController.h */,
+				492AE0ED23BBCABD006B0303 /* MainViewController.m */,
+				492AE10123BBCBEA006B0303 /* BLEManager.h */,
+				492AE10223BBCBEA006B0303 /* BLEManager.m */,
+				492AE10423BBCC8E006B0303 /* Camera */,
+				492AE0EF23BBCABD006B0303 /* Main.storyboard */,
+				492AE0F223BBCABE006B0303 /* Assets.xcassets */,
+				492AE0F423BBCABE006B0303 /* LaunchScreen.storyboard */,
+				492AE0F723BBCABE006B0303 /* Info.plist */,
+				492AE0F823BBCABE006B0303 /* main.m */,
+			);
+			path = PuttRollMLTool;
+			sourceTree = "<group>";
+		};
+		492AE10423BBCC8E006B0303 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				492AE10823BD2EA3006B0303 /* OpenCVManager.h */,
+				492AE10923BD2EA3006B0303 /* OpenCVManager.mm */,
+				492AE10523BBCCA8006B0303 /* CameraController.h */,
+				492AE10623BBCCA8006B0303 /* CameraController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		9B9EDA52A92D07C28B564E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492AE0FF23BBCBCC006B0303 /* CoreBluetooth.framework */,
+				B5C9C637B6BA2A1CCFB370DF /* libPods-PuttRollMLTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E137E13BE343EAE0C7C7CF27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C98A4A5B39AB67D71ED16C7 /* Pods-PuttRollMLTool.debug.xcconfig */,
+				4239DEABE6BE4EE8E0B2D84B /* Pods-PuttRollMLTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492AE0E223BBCABD006B0303 /* PuttRollMLTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492AE0FC23BBCABE006B0303 /* Build configuration list for PBXNativeTarget "PuttRollMLTool" */;
+			buildPhases = (
+				978CC586707CED8211D0DE6A /* [CP] Check Pods Manifest.lock */,
+				492AE0DF23BBCABD006B0303 /* Sources */,
+				492AE0E023BBCABD006B0303 /* Frameworks */,
+				492AE0E123BBCABD006B0303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuttRollMLTool;
+			productName = PuttRollMLTool;
+			productReference = 492AE0E323BBCABD006B0303 /* PuttRollMLTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492AE0DB23BBCABD006B0303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Andrew Nagata";
+				TargetAttributes = {
+					492AE0E223BBCABD006B0303 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 492AE0DE23BBCABD006B0303 /* Build configuration list for PBXProject "PuttRollMLTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 492AE0DA23BBCABD006B0303;
+			productRefGroup = 492AE0E423BBCABD006B0303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492AE0E223BBCABD006B0303 /* PuttRollMLTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492AE0E123BBCABD006B0303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492AE0F623BBCABE006B0303 /* LaunchScreen.storyboard in Resources */,
+				492AE0F323BBCABE006B0303 /* Assets.xcassets in Resources */,
+				492AE0F123BBCABD006B0303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		978CC586707CED8211D0DE6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PuttRollMLTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492AE0DF23BBCABD006B0303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492AE0EE23BBCABD006B0303 /* MainViewController.m in Sources */,
+				492AE0E823BBCABD006B0303 /* AppDelegate.m in Sources */,
+				492AE10A23BD2EA3006B0303 /* OpenCVManager.mm in Sources */,
+				492AE10323BBCBEA006B0303 /* BLEManager.m in Sources */,
+				492AE0F923BBCABE006B0303 /* main.m in Sources */,
+				492AE10723BBCCA8006B0303 /* CameraController.m in Sources */,
+				492AE0EB23BBCABD006B0303 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		492AE0EF23BBCABD006B0303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492AE0F023BBCABD006B0303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492AE0F423BBCABE006B0303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492AE0F523BBCABE006B0303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492AE0FA23BBCABE006B0303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		492AE0FB23BBCABE006B0303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492AE0FD23BBCABE006B0303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C98A4A5B39AB67D71ED16C7 /* Pods-PuttRollMLTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZ6CB93UBT;
+				INFOPLIST_FILE = PuttRollMLTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rollyk.PuttRollMLTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		492AE0FE23BBCABE006B0303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4239DEABE6BE4EE8E0B2D84B /* Pods-PuttRollMLTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZ6CB93UBT;
+				INFOPLIST_FILE = PuttRollMLTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rollyk.PuttRollMLTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492AE0DE23BBCABD006B0303 /* Build configuration list for PBXProject "PuttRollMLTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492AE0FA23BBCABE006B0303 /* Debug */,
+				492AE0FB23BBCABE006B0303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492AE0FC23BBCABE006B0303 /* Build configuration list for PBXNativeTarget "PuttRollMLTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492AE0FD23BBCABE006B0303 /* Debug */,
+				492AE0FE23BBCABE006B0303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492AE0DB23BBCABD006B0303 /* Project object */;
+}
