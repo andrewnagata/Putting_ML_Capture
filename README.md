@@ -1,5 +1,5 @@
 # Image capture tool for machine learning
-## Train an iPhone to recognize a ball rolling towards it
+## Automate the production of training images
 
 ![putt_ml](ml_github.jpg)
 ![gif](rolling_gif_comp.gif)
