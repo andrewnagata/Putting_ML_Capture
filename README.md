@@ -1,5 +1,5 @@
 # Image capture tool for machine learning
-## Automate the production of training images
+## Build a library of images to train an image classifier
 
 ![putt_ml](ml_github.jpg)
 ![gif](rolling_gif_comp.gif)
